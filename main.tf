@@ -1,9 +1,9 @@
 terraform {
   cloud {
-    organization = "beatlos"
+    organization = "hcloud-infrastructure"
 
     workspaces {
-      name = "hetzner"
+      name = "hcloud-infrastructure-prod"
     }
   }
 }
